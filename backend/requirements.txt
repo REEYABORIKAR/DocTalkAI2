@@ -1,0 +1,88 @@
+# # fastapi==0.111.0
+# # uvicorn[standard]==0.30.1
+# # python-multipart==0.0.9
+# # python-jose[cryptography]==3.3.0
+# # passlib[bcrypt]==1.7.4
+# # pydantic==2.7.1
+# # pydantic-settings==2.3.1
+
+# # # LangGraph + LangChain
+# # langgraph==0.1.19
+# # langchain==0.2.5
+# # langchain-openai==0.1.9
+# # langchain-community==0.2.5
+# # langchain-core==0.2.9
+
+# # # Vector DB
+# # chromadb==0.5.3
+
+# # # PDF
+# # pypdf==4.2.0
+# # pymupdf==1.24.5
+
+# # # Utilities
+# # python-dotenv==1.0.1
+# # httpx==0.27.0
+# # aiofiles==23.2.1
+
+
+
+
+
+# fastapi==0.111.0
+# uvicorn[standard]==0.30.1
+# python-multipart==0.0.9
+# python-jose[cryptography]==3.3.0
+# passlib[bcrypt]==1.7.4
+# pydantic==2.7.1
+# pydantic-settings==2.3.1
+
+# # LangGraph + LangChain
+# langgraph==0.1.19
+# langchain==0.2.5
+# langchain-openai==0.1.9
+# langchain-community==0.2.5
+# # ❌ REMOVE THIS LINE (or update it)
+# # langchain-core==0.2.9
+
+# # Vector DB
+# chromadb==0.5.3
+
+# # PDF
+# pypdf==4.2.0
+# pymupdf==1.24.5
+
+# # Utilities
+# python-dotenv==1.0.1
+# httpx==0.27.0
+# aiofiles==23.2.1
+
+
+
+fastapi==0.111.0
+uvicorn[standard]==0.30.1
+python-multipart==0.0.9
+python-jose[cryptography]==3.3.0
+passlib[bcrypt]==1.7.4
+
+# ✅ FIXED
+pydantic>=2.7.4,<3.0
+pydantic-settings==2.3.1
+
+# LangChain Stack
+langgraph==0.1.19
+langchain==0.2.5
+langchain-openai==0.1.9
+langchain-community==0.2.5
+
+# Vector DB
+chromadb==0.5.3
+
+# PDF
+pypdf==4.2.0
+pymupdf==1.24.5
+
+# Utils
+python-dotenv==1.0.1
+httpx==0.27.0
+aiofiles==23.2.1
